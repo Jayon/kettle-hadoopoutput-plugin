@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+
+   id="GamesHadoopFileOutput"
+   iconfile="HDO.png"
+   description="Games Hadoop File Output"
+   tooltip="Create files in an HDFS location"
+   category="GamesPlugins"
+   classname="plugin.games.data.trans.step.hadoopfileoutput.HadoopFileOutputMeta">
+		
+		<libraries>
+    		<library name="GamesStepHadoopOutputPlugin.jar"/>
+    		<library name="lib/*.jar"/>
+		</libraries>
+	
+</plugin>
